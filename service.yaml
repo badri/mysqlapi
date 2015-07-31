@@ -1,5 +1,5 @@
 id: mysqlapi
 password: mysql123
 endpoint:
-  production: mysqlapi.com
+  production: mysql-api.52.2.228.104.nip.io
   test: localhost:8000
