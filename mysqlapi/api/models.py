@@ -51,7 +51,7 @@ class DatabaseManager(object):
                  host="localhost",
                  port="3306",
                  user="root",
-                 password="",
+                 password="root",
                  public_host=None):
         self.name = canonicalize_db_name(name)
         self._host = host
