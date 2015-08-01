@@ -1,5 +1,5 @@
-id: mysqlapi
-password: mysql123
+id: mysqlapi-local
+username: lakshmi@axelerant.com
+password: password
 endpoint:
-  production: mysql-api.52.2.228.104.nip.io
-  test: localhost:8000
+  production: localhost:8000

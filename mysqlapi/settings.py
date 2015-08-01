@@ -141,13 +141,13 @@ LOGGING = {
 }
 
 RESERVED_NAMES = ("mysql", "test", "information_schema", "mysqlapi")
-SHARED_SERVER = os.environ.get("MYSQLAPI_SHARED_SERVER")
+SHARED_SERVER = 'localhost' # os.environ.get("MYSQLAPI_SHARED_SERVER")
 SHARED_SERVER_PUBLIC_HOST = os.environ.get(
     "MYSQLAPI_SHARED_SERVER_PUBLIC_HOST",
     SHARED_SERVER,
 )
 SHARED_USER = os.environ.get("MYSQLAPI_SHARED_USER", "root")
-SHARED_PASSWORD = os.environ.get("MYSQLAPI_SHARED_PASSWORD", "")
+SHARED_PASSWORD = os.environ.get("MYSQLAPI_SHARED_PASSWORD", "root")
 
 USE_POOL = os.environ.get("MYSQLAPI_USE_POOL", "False") in \
     ("True", "true", "1")
