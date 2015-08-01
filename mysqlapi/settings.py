@@ -17,7 +17,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.mysql",
         "NAME": os.environ.get("MYSQLAPI_DB_NAME", "mysqlapi"),
         "USER": os.environ.get("MYSQLAPI_DB_USER", "root"),
-        "PASSWORD": os.environ.get("MYSQLAPI_DB_PASSWORD", ""),
+        "PASSWORD": os.environ.get("MYSQLAPI_DB_PASSWORD", "root"),
         "HOST": os.environ.get("MYSQLAPI_DB_HOST", "localhost"),
         "PORT": "",
         "TEST_NAME": "test_api",
